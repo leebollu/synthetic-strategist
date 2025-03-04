@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Synthetic Strategist App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A prototype AI chat interface for strategic insights, designed for analyzing client documentation and generating focused reports.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Synthetic Strategist app allows users to upload client information and documentation, then explore insights through four specialized reports:
+- Category Report
+- Company Report
+- Consumer Report
+- Commercial Report
 
-### `npm start`
+Users can highlight interesting information in reports and create nested conversation threads to explore specific topics in depth.
 
-Runs the app in the development mode.\
+## Features
+
+- **Project Setup**: Upload client name, brief, overview, and supporting documents
+- **Specialized Reports**: View AI-generated reports on category, company, consumer, and commercial insights
+- **Interactive Chat**: Converse with the AI about uploaded content
+- **Thread Creation**: Highlight text to create nested conversation threads
+- **Insight Exploration**: Deep-dive into specific topics of interest
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+### Running the App
+
+Start the development server:
+```
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage Guide
 
-### `npm test`
+1. **Set up a project**:
+   - Enter client name and brief
+   - Add overview information
+   - Upload supporting documents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Explore reports**:
+   - Navigate to any of the four report types
+   - Read through the AI-generated insights
+   - Highlight interesting text to create threads
 
-### `npm run build`
+3. **Create conversation threads**:
+   - Highlight any text in reports or AI responses
+   - Click "Create Thread" in the tooltip
+   - Engage in focused conversation about the highlighted content
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Navigate threads**:
+   - Use the sidebar to view all created threads
+   - Threads are organized under the relevant report or chat
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technical Details
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Built with:
+- React
+- React Router
+- Styled Components
 
-### `npm run eject`
+## Note
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is a prototype application with placeholder content for demonstration purposes. In a production version, the AI would generate content based on actual uploaded documents.
